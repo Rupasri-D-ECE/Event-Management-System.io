@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Event_Detailscontroller">
+   <children>
+      <Pane layoutX="1.0" layoutY="-1.0" prefHeight="480.0" prefWidth="640.0">
+         <children>
+            <ImageView fitHeight="494.0" fitWidth="649.0" layoutX="-10.0" layoutY="-12.0">
+               <image>
+                  <Image url="@../../../../../Downloads/WhatsApp%20Image%202023-12-07%20at%203.50.01%20PM.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="98.0" layoutY="290.0" prefHeight="35.0" prefWidth="199.0" text="Time              :">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="98.0" layoutY="145.0" prefHeight="35.0" prefWidth="196.0" text="Event Name   :">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="98.0" layoutY="192.0" prefHeight="35.0" prefWidth="197.0" text="Description    :">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="98.0" layoutY="242.0" prefHeight="35.0" prefWidth="204.0" text="Date              :">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="eventname" layoutX="325.0" layoutY="147.0" prefHeight="33.0" prefWidth="213.0" />
+            <TextField fx:id="eventdate" layoutX="325.0" layoutY="244.0" prefHeight="33.0" prefWidth="213.0" />
+            <TextField fx:id="eventtime" layoutX="327.0" layoutY="295.0" prefHeight="33.0" prefWidth="213.0" />
+            <TextField fx:id="eventdescription" layoutX="325.0" layoutY="193.0" prefHeight="33.0" prefWidth="213.0" />
+            <Text layoutX="81.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Event">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="30.0" />
+               </font>
+            </Text>
+            <Button layoutX="483.0" layoutY="379.0" mnemonicParsing="false" onMouseClicked="#next" text="Next">
+               <font>
+                  <Font name="Comic Sans MS" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
